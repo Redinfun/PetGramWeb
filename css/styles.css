@@ -1,0 +1,195 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Ubuntu", sans-serif;
+}
+
+em {
+  font-weight: bold;
+}
+
+i {
+  padding: 1.5% 1.5%;
+}
+
+.container-fluid {
+  padding: 5% 15% 10%;
+}
+
+.navbar {
+  padding-bottom: 5rem;
+}
+.nav-item {
+  color: white;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  padding: 0 18px;
+}
+
+.btn-custom-id {
+  margin: 5% 3% 5%;
+}
+
+.image-title-id {
+  width: 55%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 10%;
+}
+
+.iconify {
+  color: whitesmoke;
+}
+.btn:hover {
+  background-color: darkred;
+  color: whitesmoke;
+  border-color: skyblue;
+}
+.custom-section-div {
+  text-align: center;
+  padding: 1.5rem 2.5rem;
+}
+.fas {
+  color: #ff4c68;
+  margin: 2% 3%;
+}
+
+.fas:hover {
+  color: crimson;
+  transform: rotate(12deg);
+}
+.testimonial-image {
+  border-radius: 100%;
+  width: 15%;
+}
+
+.testimonial-image:hover {
+  width: 20%;
+  margin: 16px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 50px 20px 50px;
+}
+
+.carousel-item {
+  height: 500px;
+  padding: 7% 15%;
+}
+.pricing-column {
+  padding: 2% 3%;
+}
+
+.card-header {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.custom-free-btn-signup {
+  background-color: #ff4c68;
+  border: none;
+}
+.custom-free-btn-signup:hover {
+  background-color: teal;
+}
+
+.custom-btn-signup:hover {
+  background-color: tomato;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+#title-petgram-id {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#description-id {
+  font-weight: bolder;
+  font-size: 3em;
+  line-height: 1.5;
+  color: whitesmoke;
+}
+
+#features {
+  padding: 5% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+#testimonials,
+#press {
+  background-color: #ef8172;
+}
+
+#testimonials,
+#press,
+#pricing,
+#cta,
+#footer,
+#features {
+  text-align: center;
+}
+
+#testimonials {
+  color: white;
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 3% 5%;
+}
+
+#description-cta-id {
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding: 3%;
+}
+
+#footer {
+  background-color: white;
+  font-size: 1.3rem;
+}
+
+/* Media Query */
+@media (max-width: 1028px) {
+  .image-title-id {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
